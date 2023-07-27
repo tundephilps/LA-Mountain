@@ -3,7 +3,7 @@ import React from "react";
 const SecondPage = () => {
   return (
     <>
-      <div className="bg-white lg:h-[20vh] sm:h-[28vh]   flex items-center justify-center lg:px-[20%] px-[10%]">
+      <div className="bg-white h-full py-4  flex items-center justify-center lg:px-[20%] px-[10%]">
         <div className="flex items-center lg:gap-20 gap-5 py-4 ">
           <div className="flex items-center lg:relative">
             <h1 class="  lg:text-9xl font-extrabold tracking-tight leading-none text-gray-400 text-5xl">

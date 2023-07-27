@@ -7,6 +7,7 @@ import SecondPage from "./components/SecondPage";
 import LastPage from "./components/LastPage";
 import Footer from "./components/Footer";
 import Accordion from "./components/Accordion/Accordion";
+import Footer2 from "./components/Footer2";
 
 function App() {
   return (
@@ -17,7 +18,7 @@ function App() {
       <SecondPage />
       <Accordion />
       <LastPage />
-      <Footer />
+      <Footer2 />
     </>
   );
 }

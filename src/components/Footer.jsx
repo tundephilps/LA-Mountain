@@ -4,7 +4,7 @@ const Footer = () => {
   return (
     <footer className="px-[10%] lg:px-[20%] bg-gray-700">
       <div className="container flex justify-between h-16 mx-auto">
-        <div className="flex flex-row items-center gap-2">
+        <div className="lg:flex flex-row items-center gap-2 hidden">
           <div>
             <img
               src="https://thumbs.dreamstime.com/b/ice-mountain-17910.jpg"
@@ -17,7 +17,7 @@ const Footer = () => {
             <h1 className="text-gray-400"> MOUNTAINS</h1>
           </div>
         </div>
-        <div className="flex items-center text-gray-400 font-bold lg:text-base text-sm">
+        <div className="flex mx-auto items-center text-gray-400 font-bold lg:text-base text-sm">
           COPYRIGHT. 2016 ALL RIGHT RESERVED.
         </div>
       </div>

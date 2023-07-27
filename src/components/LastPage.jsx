@@ -20,12 +20,12 @@ const LastPage = () => {
     <section
       id="team"
       style={divStyle}
-      class=" bg-no-repeat  bg-gray-100 bg-blend-multiply"
+      class=" bg-no-repeat  bg-gray-100 bg-blend-multiply overflow-x-hidden"
     >
       <div class="px-[20%]  max-w-screen-xl text-center py-24 lg:py-20">
-        <div className="bg-white opacity-75 h-[20rem] w-[20rem] p-6">
+        <div className="bg-white opacity-75 py-8 h-full w-30 lg:w-[20rem]  p-6">
           <div>
-            <h1 className="text-blue-950 font-extrabold flex items-start ">
+            <h1 className="text-blue-950 font-extrabold flex items-start  ">
               SCHEDULE
             </h1>
           </div>
