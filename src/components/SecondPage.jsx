@@ -22,7 +22,7 @@ const SecondPage = () => {
           </p>
         </div>
       </div>
-      <div className="bg-gray-500 gap-4 h-[5vh] font-medium flex items-center justify-start px-[20%]">
+      <div className="bg-gray-500 gap-4 h-[5vh] font-medium lg:flex items-center justify-start px-[20%] hidden">
         <div className="hover:bg-slate-300 font-mono h-full text-2xl  hover:text-slate-600 text-gray-400 hover:underline">
           <a>MOUNTAIN 1</a>
         </div>

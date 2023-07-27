@@ -52,11 +52,22 @@ const FirstPage = () => {
       </div>
       <div className="bg-gray-500 opacity-80 h-[25vh] w-full flex py-3 px-12 ">
         <Swiper
-          slidesPerView={4}
+          slidesPerView={1}
           spaceBetween={30}
           freeMode={true}
           pagination={{
             clickable: true,
+          }}
+          breakpoints={{
+            640: {
+              slidesPerView: 1,
+              spaceBetween: 20,
+            },
+
+            1024: {
+              slidesPerView: 4,
+              spaceBetween: 50,
+            },
           }}
           autoplay={{
             delay: 2500,

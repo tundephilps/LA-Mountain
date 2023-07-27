@@ -6,6 +6,7 @@ import Navbar from "./components/Navbar";
 import SecondPage from "./components/SecondPage";
 import LastPage from "./components/LastPage";
 import Footer from "./components/Footer";
+import Accordion from "./components/Accordion/Accordion";
 
 function App() {
   return (
@@ -14,6 +15,7 @@ function App() {
       <Hero />
       <FirstPage />
       <SecondPage />
+      <Accordion />
       <LastPage />
       <Footer />
     </>
